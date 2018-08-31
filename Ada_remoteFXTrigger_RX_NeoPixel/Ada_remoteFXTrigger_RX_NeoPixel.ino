@@ -18,7 +18,7 @@
 
 
 /********** NeoPixel Setup *************/
-#define PIN            11
+#define PIN            6  //this is the default, you can change if you adjust jumpers on the NeoPixel FeatherWing
 #define NUMPIXELS      42
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 int delayval = 50; // delay
