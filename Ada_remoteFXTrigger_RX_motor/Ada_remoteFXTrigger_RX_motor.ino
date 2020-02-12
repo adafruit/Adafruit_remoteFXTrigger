@@ -37,7 +37,7 @@ Adafruit_DCMotor *myDCMotor = AFMS.getMotor(1);//for a pump
   #define RFM69_RST     4
 #endif
 
-#if defined(ARDUINO_SAMD_FEATHER_M0) // Feather M0 w/Radio
+#if defined(ADAFRUIT_FEATHER_M0) // Feather M0 w/Radio
   #define RFM69_CS      8
   #define RFM69_INT     3
   #define RFM69_RST     4
@@ -177,5 +177,3 @@ void loop(){
     digitalWrite(LED, LOW);
   }
 }
-
-
